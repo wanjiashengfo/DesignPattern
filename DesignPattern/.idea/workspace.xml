@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="922aa222-7e7e-4944-9b9c-fe332fec9559" name="Default" comment="second">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/principle/Llishitihuan/LisKov.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/principle/ocp/Ocp.java" />
+    <list default="true" id="922aa222-7e7e-4944-9b9c-fe332fec9559" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/principle/demeter/Demeter.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SingleResponsibility1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/principle/singleresponsiblity/SingleResponsibility1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,17 +56,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Depand01.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Depand01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/principle/inversion/Depand01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="209">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="e#436#437#0" expanded="true" />
                 <element signature="e#479#480#0" expanded="true" />
                 <element signature="e#573#574#0" expanded="true" />
                 <element signature="e#598#599#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demeter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/principle/demeter/Demeter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -284,6 +282,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="principle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="principle" type="462c0819:PsiDirectoryNode" />
+              <item name="demeter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -544,7 +551,7 @@
       <workItem from="1587557697591" duration="3417000" />
       <workItem from="1587584349887" duration="1880000" />
       <workItem from="1587805766784" duration="7937000" />
-      <workItem from="1587822112714" duration="1847000" />
+      <workItem from="1587822112714" duration="1930000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1587481234098</created>
@@ -581,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587584691974</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="second">
+      <created>1587824287273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587824287273</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17442000" />
+    <option name="totallyTimeSpent" value="17525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -603,7 +617,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17095116" sideWeight="0.6068796" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17095116" sideWeight="0.6068796" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1017,14 +1031,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/principle/inversion/Depand01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="209">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="e#436#437#0" expanded="true" />
             <element signature="e#479#480#0" expanded="true" />
             <element signature="e#573#574#0" expanded="true" />
             <element signature="e#598#599#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/principle/demeter/Demeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
