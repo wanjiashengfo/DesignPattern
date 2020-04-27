@@ -1,7 +1,6 @@
 package com.factory.simplefactory.pizzastore.order;
 
-import com.factory.simplefactory.pizzastore.CheesePizza;
-import com.factory.simplefactory.pizzastore.GreekPizza;
+
 import com.factory.simplefactory.pizzastore.Pizza;
 
 import java.io.BufferedReader;
